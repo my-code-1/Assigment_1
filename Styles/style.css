@@ -5,6 +5,10 @@
 body{
     font-family: 'Lato', sans-serif;
 }
+/* common style shared */
+.shared_style{
+    padding: 130px 300px 40px;
+}
 /* banner section design */
 .banner_container{
     display: flex;
@@ -14,11 +18,6 @@ body{
 
 }
 /* text part */
-/* .text_conten{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-} */
 .title{
     margin-left: 20%;
     margin-bottom: 10px;
@@ -49,4 +48,46 @@ body{
     margin-right: 130px;
     margin-top: 30px;
 
+}
+/* feature section */
+.feature_section_color
+{
+    background-color: #FFF;
+}
+.feature_title{
+    text-align: center;
+    color: #080000;
+    font-size: 25px;
+    font-weight: 800px;
+}
+.feature_description{
+    text-align: center;
+    padding-top: 20px;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 15px;
+    font-weight: 300px;
+}
+.feature_container{
+    display: flex;
+    justify-content: center;
+    gap:15px;
+}
+.div_border{
+    height: 310px;
+    width: 250px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+}
+.feature_img{
+    height: 200px;
+    width: 200px;
+    padding:70px 30px 30px 30px;
+}
+.pink_description{
+    text-align: center;
+    padding-top: 24px;
+    text-decoration: underline;
+    color: #272727;
+    font-size: 20px;
+    font-weight: 700px;
 }
