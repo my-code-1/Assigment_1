@@ -91,3 +91,39 @@ body{
     font-size: 20px;
     font-weight: 700px;
 }
+/* Hot deal Related */
+.deal_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(229, 84, 115, 0.05);
+    margin-top: 100px;
+}
+.deal_description{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+.deal_header{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800px;
+    text-align: center;
+}
+#of{
+    color: rgba(229, 84, 115, 1);
+}
+.deal_button{
+    margin-right: 20px;
+    margin-left: 250px;
+}
+.text_side{
+    margin-top: 50px;
+}
+.deal_img{
+    height: 230px;
+    width: 190px;
+    margin: 50px 30px 50px 70px ;
+    
+}
