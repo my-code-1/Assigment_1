@@ -230,3 +230,34 @@ background: #FFF;
 #shop{
     color:rgba(255, 255, 255, 1);
 }
+/* Extra feature */
+.extra_feature{
+    height: 400px;
+    width:100%;
+    background-color: whitesmoke;
+    margin-top: 90px;
+}
+.contact_title{
+    text-align: center;
+    color:#080000;
+    font-weight: 800;
+    padding-top: 10px;
+}
+.contact_requ{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.img_ex{
+    height: 300px;
+    width: 300px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px red;
+}
+.form_part{
+    margin-right: 110px;
+}
+#con{
+    color:#E55473;
+    font-weight: 800;
+}
