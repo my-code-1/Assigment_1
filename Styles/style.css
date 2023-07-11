@@ -177,11 +177,15 @@ body{
 }
 input{ 
     width: 400px;
-    height: 40px;
+    height: 38px;
     border: none;
     border-radius: 8px;
     margin-top:20px;
-    text-align: center;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 14px;
+    font-weight: 400;
+    padding-left:10px;
+
 
 background: #FFF;
 }
