@@ -160,23 +160,35 @@ body{
 {
     display: flex;
     justify-content: center;
+    align-items: center;
     margin-top:110px;
+    padding:20px;
 }
 .latest_img{
     height: 300px;
-    width: 968px;
+    width: 100%;
     background-image: url('../Images/Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
 }
 .latest_text{
     margin-top: 80px;
 }
 input{ 
     width: 400px;
-    height: 50px;
+    height: 40px;
     border: none;
     border-radius: 8px;
-    margin-left: 70px;
+    margin-top:20px;
+    text-align: center;
+
 background: #FFF;
+}
+.form_style{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 /* Footer section */
 .footer_section{
