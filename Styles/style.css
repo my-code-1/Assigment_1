@@ -72,20 +72,37 @@ body{
     justify-content: center;
     gap:15px;
 }
-.div_border{
+.div_border_1{
     height: 310px;
-    width: 250px;
+    width: 270px;
     border-radius: 300px 300px 0px 0px;
-    background: rgba(5, 151, 160, 0.15);
+    background-color: rgba(167, 33, 98, 0.15);
+}
+.div_border_2{
+    height: 310px;
+    width: 270px;
+    border-radius: 300px 300px 0px 0px;
+    background-color:rgba(5, 151, 160, 0.15);
+}
+.div_border_3{
+    height: 310px;
+    width: 270px;
+    border-radius: 300px 300px 0px 0px;
+    background-color:rgba(71, 125, 17, 0.15);
 }
 .feature_img{
     height: 200px;
     width: 200px;
     padding:70px 30px 30px 30px;
 }
+.img_de{
+    height: 240px ;
+}
+.des_de{
+   padding-top: 40px;
+}
 .pink_description{
     text-align: center;
-    padding-top: 24px;
     text-decoration: underline;
     color: #272727;
     font-size: 20px;
@@ -97,7 +114,7 @@ body{
     justify-content: center;
     align-items: center;
     background-color: rgba(229, 84, 115, 0.05);
-    margin-top: 100px;
+    margin-top: 110px;
 }
 .deal_description{
     color: rgba(39, 39, 39, 0.60);
@@ -126,4 +143,71 @@ body{
     width: 190px;
     margin: 50px 30px 50px 70px ;
     
+}
+/* instagram part */
+.insta_img_container
+{
+    display: flex;
+    justify-content: center;
+    gap:15px;
+}
+.img_style{
+    height: 250px;
+    width: 230px;
+}
+/* latest container related */
+.latest_container
+{
+    display: flex;
+    justify-content: center;
+    margin-top:110px;
+}
+.latest_img{
+    height: 300px;
+    width: 968px;
+    background-image: url('../Images/Rectangle\ 9.png');
+}
+.latest_text{
+    margin-top: 80px;
+}
+input{ 
+    width: 400px;
+    height: 50px;
+    border: none;
+    border-radius: 8px;
+    margin-left: 70px;
+background: #FFF;
+}
+/* Footer section */
+.footer_section{
+    height: 300px;
+    width: 100%;
+    background-color: rgba(17, 16, 16, 1);
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+.footer_title{
+    text-align: center;
+    color: #E55473;
+    font-size: 40px;
+    font-weight: 800;
+}
+.footer_description{
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 10px;
+
+}
+.footer_date{
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    padding-top: 10px;
+
+}
+.footer_design{
+    padding-top: 70px;
 }
